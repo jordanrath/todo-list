@@ -1,0 +1,16 @@
+{
+    "homepage": "https://github.com/jordanrath.github.io./todo-list.git",
+    "name": "todo-list",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+    },
+    "repository": "https://github.com/jordanrath/todo-list",
+    "author": "Jordan Rath",
+    "license": "MIT",
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+  }

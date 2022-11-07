@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Italiana&family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+    </head>
+
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+
+    <div class="todo-container">
+        <div id="myDIV" class="header">
+            <h2>To Do List</h2>
+            <div class="input-btn-container">
+                <input type="text" id="myInput" placeholder="Add to your to do list...">
+                <span onclick="newElement()" class="addBtn">Add</span>
+            </div>
+        </div>
+
+        <ul id="myUL">
+            <li>Workout</li>
+            <li class="checked">Pay bills</li>
+            <li>Walk the dog</li>
+            <li>Clean the garage</li>
+            <li>Build a to do list</li>
+        </ul>
+    </div>
+
+        <script src="script.js"></script>
+</html>
