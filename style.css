@@ -189,12 +189,9 @@ input {
     .todo-container {
         margin: unset;
         display: flex;
-        width: 100%;
+        width: 90%;
         height: 100%;
-    }
-
-    .todo-container #myDIV {
-        height: 15%;   
+        background-color: #dfdfdf;
     }
 
     .todo-container #myDIV h2 {
@@ -204,7 +201,7 @@ input {
     }
 
     .todo-container #myUL {
-        height: 85%;
+        height: 100%;
     }
 
     .todo-container #myUL li {
@@ -212,8 +209,24 @@ input {
     }
 }
 
-/* @media only screen and (max-width: 600px) {
-    .todo-container #myDIV {
-        height: unset;   
+@media only screen and (max-width: 800px) {
+    .todo-container {
+        font-weight: bolder;
     }
-} */
+
+    .todo-container #myDIV {
+        font-weight: bolder;
+    }
+
+    .todo-container #myUL {
+        font-weight: bolder;
+    }
+
+    .input-btn-container input span{
+        font-weight: bolder;
+    }
+
+    input::placeholder {
+        font-weight: bolder;
+    }
+}
