@@ -227,6 +227,7 @@ input {
     }
 
     input::placeholder {
+        font-size: 80%;
         font-weight: bolder;
     }
 }
