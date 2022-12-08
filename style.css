@@ -178,9 +178,42 @@ input {
     background-color: #4CA552;
 }
 
-@media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
     .todo-container {
         width: 70%;
         height: auto;
     }
+} */
+
+@media only screen and (max-width: 1000px) {
+    .todo-container {
+        margin: unset;
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+    .todo-container #myDIV {
+        height: 15%;   
+    }
+
+    .todo-container #myDIV h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+
+    .todo-container #myUL {
+        height: 85%;
+    }
+
+    .todo-container #myUL li {
+        height: 10%;
+    }
 }
+
+/* @media only screen and (max-width: 600px) {
+    .todo-container #myDIV {
+        height: unset;   
+    }
+} */
